@@ -96,8 +96,6 @@ body {
   align-items: center;
   gap: 24px;
 }
-.ban-input-type {
-}
 .ban-input-type input,
 select {
   box-sizing: border-box;
