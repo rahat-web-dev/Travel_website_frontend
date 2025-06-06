@@ -51,7 +51,6 @@ body {
   height: 500px;
   margin-top: 50px;
   margin-bottom: 100px;
-  border: 2px solid red;
   border-radius: 16px;
   background: linear-gradient(
       to bottom,
@@ -122,4 +121,51 @@ select {
   font-weight: 700;
   text-align: center;
   word-spacing: 8px;
+} /* section-1 end */
+/* section-2 start */
+.popular-tour-section {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 100px;
+}
+.popular-info-container {
+  width: 100%;
+  max-width: 577px;
+  padding: 5px;
+}
+.popular-info-title {
+  margin-top: 0px;
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: start;
+  color: #131318;
+  margin-bottom: 24px;
+}
+.popular-info-description {
+  font-size: 1rem;
+  line-height: 35px;
+  color: rgba(19, 19, 24, 0.7);
+  margin-bottom: 32px;
+  text-align: justify;
+  padding: 0px 5px;
+  box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+.popular-info-btn {
+  width: 100%;
+  max-width: 174px;
+  padding: 14px 34px;
+  border-radius: 8px;
+  background-color: #ff5400;
+  color: #ffffff;
+  border: none;
+}
+.popular-tour-img {
+  width: 100%;
+  max-width: 540px;
+  max-height: 550px;
+  object-fit: cover;
 }
