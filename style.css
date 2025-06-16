@@ -273,3 +273,29 @@ select {
   background-position: center;
   background-repeat: no-repeat;
 }
+/* Grid Section End */
+/* Choose Section Start */
+.choose-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 48px;
+}
+.choose-us-container {
+  padding: 0px 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+.choose-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #131318;
+  margin-bottom: 24px;
+}
+.choose-description {
+  text-align: center;
+  font-size: 1rem;
+  color: rgba(19, 19, 24, 0.7);
+  line-height: 26px;
+}
