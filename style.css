@@ -435,4 +435,28 @@ select {
   background-color: #ff5400;
   border-radius: 8px;
   border: none;
+} /* End of the tour section */
+.transform {
+  display: flex;
+  justify-content: center;
+}
+.rotation-container {
+  border: 1px solid greenyellow;
+  /* padding: 50px; */
+  width: 672px;
+  height: 422px;
+  margin-bottom: 20px;
+  display: grid;
+  place-items: end;
+}
+.rotation {
+  border: 1px solid red;
+  width: 324px;
+  height: 120px;
+  background-color: #ff5400;
+  display: grid;
+  place-content: center;
+  border-radius: 8px;
+  transform: rotate(-20deg) scaleX(1.07);
+  transform-origin: bottom left;
 }
